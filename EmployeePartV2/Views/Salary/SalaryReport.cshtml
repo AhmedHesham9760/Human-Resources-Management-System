@@ -1,0 +1,43 @@
+﻿@using EmployeePartV2.Models
+@using PagedList.Mvc;
+@model PagedList.PagedList<Salary>
+@if (@ViewBag.searchWarning != null)
+{
+    <tr>
+        <td colspan="12" rowspan="3">@ViewBag.searchWarning</td>
+    </tr>
+}
+
+@foreach (var item in Model)
+{
+
+<tr>
+    @*<td>@item.Date.ToString("MM-yyyy")</td>*@
+    <td>@item.EmployeeName</td>
+    <td>@item.EmployeeDepartment</td>
+    <td>@item.BasicSalary</td>
+    <td>@item.AttendanceDays</td>
+    <td>@item.BonusDays</td>
+    <td>@item.AbsentDays</td>
+    <td>@item.ExtraHoursCost</td>
+    <td>@item.DiscountHoursCost</td>
+    <td>@item.TotalExtraCost</td>
+    <td>@item.TotalDiscountCost</td>
+    <td>@item.NetSalary</td>
+    <td>
+        @*<button type="submit" class="btn btn-danger mb-2">*@
+        @*<i class="ft-plus"></i>&nbsp;*@
+        @Html.ActionLink("Invoice", "printedInvoic", "Salary", new { id = item.EmployeeStatusId }, new { @class = "btn btn-danger mb-2" })
+        @*</button>*@
+    </td>
+
+
+</tr>
+}
+
+@*<tr colspan="13">
+        @Html.PagedListPager(Model, n => Url.Action("SalaryReport", new { years = ViewBag.years, months = ViewBag.months, search = ViewBag, pageNo = n }))
+    </tr>*@
+
+
+

@@ -1,0 +1,117 @@
+﻿@*@{
+        ViewBag.Title = "AddUser";
+        Layout = "~/Views/Shared/_Layout2.cshtml";
+    }
+
+    <h2>AddUser</h2>*@
+
+@using EmployeePartV2.Models
+@model User
+@{
+    ViewBag.Title = "AddUser";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+
+}
+
+            <!-- Zero configuration table -->
+            <section id="configuration">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="card">
+
+
+                            <div class="card-header">
+                                <div class="card-title-wrap bar-success">
+                                    <h4 class="card-title">Add user </h4>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="px-3">
+                                    <form class="form form-horizontal " method="post">
+                                        <div class="form-body">
+                               
+                                            <div class="form-group row">
+                                                <div class="col-md-3 label-control" for="projectinput1"> @Html.LabelFor(n => n.Name)</div>
+                                                <div class="col-md-9">
+                                                    @Html.TextBoxFor(n => n.Name , new { @class = "form-control" ,  @Value = TempData["msg"]!=null? TempData["Name"] : "" })
+                                                </div>
+                                                <div class="col-md-3"> @Html.ValidationMessageFor(n => n.Name)</div>
+
+                                            </div>
+
+                                            <div class="form-group row">
+                                                <div class="col-md-3 label-control" for="projectinput1"> @Html.LabelFor(n => n.userName)</div>
+                                                <div class="col-md-9">
+                                                    @Html.TextBoxFor(n => n.userName, new { @class = "form-control", @Value = TempData["msg"] != null ? TempData["UserName"] : "" })
+                                                </div>
+                                                <div class="col-md-3"> @Html.ValidationMessageFor(n => n.userName)</div>
+
+                                            </div>
+                                            <div class="form-group row">
+                                                <div class="col-md-3 label-control" for="projectinput1"> @Html.LabelFor(n => n.Email)</div>
+                                                <div class="col-md-9">
+                                                    @Html.TextBoxFor(n => n.Email, new { @class = "form-control" })
+                                                    @if (TempData["msg"] != null)
+                                                    {
+                                                        <p class="text-danger">@TempData["msg"]</p>
+                                                    }
+                                                </div>
+                                                <div class="col-md-3"> @Html.ValidationMessageFor(n => n.Email)</div>
+
+                                            </div>
+                                            <div class="form-group row">
+                                                <div class="col-md-3 label-control" for="projectinput1"> @Html.LabelFor(n => n.Password)</div>
+                                                <div class="col-md-9">
+                                                    @Html.PasswordFor(n => n.Password, new { @class = "form-control" })
+                                                </div>
+                                                <div class="col-md-3"> @Html.ValidationMessageFor(n => n.Password)</div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-md-3 label-control" for="projectinput1"> @Html.LabelFor(n => n.GroupID)</div>
+                                            <div class="col-md-9">
+                                                <select id="projectinput7" name="GroupID" class="form-control">
+                                                    @foreach (var item in (List<Group>)ViewBag.Group)
+                                                    {
+                                                       
+                                                        <option value="@item.GroupID">@item.Name</option>
+                                                    }
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <input type="submit" value="Save" class="btn btn-light-green">
+
+                                        <input type="submit" value="Cancal" class="btn btn-danger mr-1/">
+                                        @*<i class="icon-trash">Cancel</i>*@
+
+                                        @*<i class="icon-note">Save</i>*@
+
+                                    </form>
+                                </div>
+
+
+
+
+
+
+                            </div>
+                        </div>
+                        <div class="form-actions">
+
+
+                        </div>
+                    </div>
+                </div>
+             </section>
+      
+
+@section scripts{
+
+
+    <script src="~/Scripts/jquery.validate.js"></script>
+
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+}
+
+

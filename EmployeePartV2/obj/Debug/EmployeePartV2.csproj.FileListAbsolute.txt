@@ -1,0 +1,261 @@
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\EmployeePartV2.dll.config
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\EmployeePartV2.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\EmployeePartV2.pdb
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\csc.exe
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\csc.exe.config
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\csc.rsp
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\csi.exe
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\csi.exe.config
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\csi.rsp
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\System.AppContext.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\System.Console.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\System.IO.Compression.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\System.Net.Http.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\System.Net.Sockets.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\System.ValueTuple.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\vbc.exe
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\vbc.exe.config
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\vbc.rsp
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\VBCSCompiler.exe
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\Antlr3.Runtime.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\EntityFramework.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\EntityFramework.SqlServer.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\Newtonsoft.Json.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\System.Web.Helpers.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\System.Web.Mvc.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\System.Web.Optimization.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\System.Web.Razor.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\System.Web.WebPages.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\System.Web.WebPages.Razor.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\WebGrease.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\EntityFramework.xml
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\EntityFramework.SqlServer.xml
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\System.Web.Helpers.xml
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\System.Web.Mvc.xml
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\System.Web.Optimization.xml
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\System.Web.Razor.xml
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\System.Web.WebPages.xml
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\System.Web.WebPages.Razor.xml
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\Newtonsoft.Json.xml
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\Antlr3.Runtime.pdb
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\obj\Debug\EmployeePartV2.csproj.AssemblyReference.cache
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\obj\Debug\EmployeePartV2.csproj.CoreCompileInputs.cache
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\obj\Debug\EmployeePartV2.csproj.CopyComplete
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\obj\Debug\EmployeePartV2.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\obj\Debug\EmployeePartV2.pdb
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\PagedList.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\PagedList.Mvc.dll
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\PagedList.xml
+C:\Users\ahmed\Desktop\EmployeePartV2\EmployeePartV2\bin\PagedList.Mvc.xml
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\obj\Debug\EmployeePartV2.csproj.CoreCompileInputs.cache
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\EmployeePartV2.dll.config
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\EmployeePartV2.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\EmployeePartV2.pdb
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\csc.exe
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\csc.exe.config
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\csc.rsp
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\csi.exe
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\csi.exe.config
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\csi.rsp
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\System.AppContext.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\System.Collections.Immutable.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\System.Console.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\System.Globalization.Calendars.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\System.IO.Compression.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\System.IO.FileSystem.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\System.Net.Http.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\System.Net.Sockets.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\System.Reflection.Metadata.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\System.ValueTuple.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\System.Xml.XPath.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\vbc.exe
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\vbc.exe.config
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\vbc.rsp
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\VBCSCompiler.exe
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\roslyn\VBCSCompiler.exe.config
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\Antlr3.Runtime.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\EntityFramework.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\EntityFramework.SqlServer.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\Microsoft.Web.Infrastructure.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\Newtonsoft.Json.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\PagedList.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\PagedList.Mvc.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\System.Web.Helpers.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\System.Web.Mvc.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\System.Web.Optimization.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\System.Web.Razor.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\System.Web.WebPages.Deployment.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\System.Web.WebPages.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\System.Web.WebPages.Razor.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\WebGrease.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\EntityFramework.xml
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\EntityFramework.SqlServer.xml
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\PagedList.xml
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\PagedList.Mvc.xml
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\System.Web.Helpers.xml
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\System.Web.Mvc.xml
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\System.Web.Optimization.xml
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\System.Web.Razor.xml
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\System.Web.WebPages.xml
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\System.Web.WebPages.Deployment.xml
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\System.Web.WebPages.Razor.xml
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\Newtonsoft.Json.xml
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\Antlr3.Runtime.pdb
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\obj\Debug\EmployeePartV2.csproj.CopyComplete
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\obj\Debug\EmployeePartV2.dll
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\obj\Debug\EmployeePartV2.pdb
+E:\Git Hub Project\Hossam\Final-Project\EmployeePartV2\obj\Debug\EmployeePartV2.csproj.AssemblyReference.cache
+E:\finalproject\EmployeePartV2\bin\EmployeePartV2.dll.config
+E:\finalproject\EmployeePartV2\bin\EmployeePartV2.dll
+E:\finalproject\EmployeePartV2\bin\EmployeePartV2.pdb
+E:\finalproject\EmployeePartV2\bin\roslyn\csc.exe
+E:\finalproject\EmployeePartV2\bin\roslyn\csc.exe.config
+E:\finalproject\EmployeePartV2\bin\roslyn\csc.rsp
+E:\finalproject\EmployeePartV2\bin\roslyn\csi.exe
+E:\finalproject\EmployeePartV2\bin\roslyn\csi.exe.config
+E:\finalproject\EmployeePartV2\bin\roslyn\csi.rsp
+E:\finalproject\EmployeePartV2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\finalproject\EmployeePartV2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\finalproject\EmployeePartV2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\finalproject\EmployeePartV2\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\finalproject\EmployeePartV2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\finalproject\EmployeePartV2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\finalproject\EmployeePartV2\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\finalproject\EmployeePartV2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\finalproject\EmployeePartV2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\finalproject\EmployeePartV2\bin\roslyn\Microsoft.Managed.Core.targets
+E:\finalproject\EmployeePartV2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\finalproject\EmployeePartV2\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\finalproject\EmployeePartV2\bin\roslyn\System.AppContext.dll
+E:\finalproject\EmployeePartV2\bin\roslyn\System.Collections.Immutable.dll
+E:\finalproject\EmployeePartV2\bin\roslyn\System.Console.dll
+E:\finalproject\EmployeePartV2\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\finalproject\EmployeePartV2\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\finalproject\EmployeePartV2\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\finalproject\EmployeePartV2\bin\roslyn\System.Globalization.Calendars.dll
+E:\finalproject\EmployeePartV2\bin\roslyn\System.IO.Compression.dll
+E:\finalproject\EmployeePartV2\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\finalproject\EmployeePartV2\bin\roslyn\System.IO.FileSystem.dll
+E:\finalproject\EmployeePartV2\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\finalproject\EmployeePartV2\bin\roslyn\System.Net.Http.dll
+E:\finalproject\EmployeePartV2\bin\roslyn\System.Net.Sockets.dll
+E:\finalproject\EmployeePartV2\bin\roslyn\System.Reflection.Metadata.dll
+E:\finalproject\EmployeePartV2\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\finalproject\EmployeePartV2\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\finalproject\EmployeePartV2\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\finalproject\EmployeePartV2\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\finalproject\EmployeePartV2\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\finalproject\EmployeePartV2\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\finalproject\EmployeePartV2\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\finalproject\EmployeePartV2\bin\roslyn\System.ValueTuple.dll
+E:\finalproject\EmployeePartV2\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\finalproject\EmployeePartV2\bin\roslyn\System.Xml.XmlDocument.dll
+E:\finalproject\EmployeePartV2\bin\roslyn\System.Xml.XPath.dll
+E:\finalproject\EmployeePartV2\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\finalproject\EmployeePartV2\bin\roslyn\vbc.exe
+E:\finalproject\EmployeePartV2\bin\roslyn\vbc.exe.config
+E:\finalproject\EmployeePartV2\bin\roslyn\vbc.rsp
+E:\finalproject\EmployeePartV2\bin\roslyn\VBCSCompiler.exe
+E:\finalproject\EmployeePartV2\bin\roslyn\VBCSCompiler.exe.config
+E:\finalproject\EmployeePartV2\bin\Antlr3.Runtime.dll
+E:\finalproject\EmployeePartV2\bin\EntityFramework.dll
+E:\finalproject\EmployeePartV2\bin\EntityFramework.SqlServer.dll
+E:\finalproject\EmployeePartV2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\finalproject\EmployeePartV2\bin\Microsoft.Web.Infrastructure.dll
+E:\finalproject\EmployeePartV2\bin\Newtonsoft.Json.dll
+E:\finalproject\EmployeePartV2\bin\PagedList.dll
+E:\finalproject\EmployeePartV2\bin\PagedList.Mvc.dll
+E:\finalproject\EmployeePartV2\bin\System.Web.Helpers.dll
+E:\finalproject\EmployeePartV2\bin\System.Web.Mvc.dll
+E:\finalproject\EmployeePartV2\bin\System.Web.Optimization.dll
+E:\finalproject\EmployeePartV2\bin\System.Web.Razor.dll
+E:\finalproject\EmployeePartV2\bin\System.Web.WebPages.Deployment.dll
+E:\finalproject\EmployeePartV2\bin\System.Web.WebPages.dll
+E:\finalproject\EmployeePartV2\bin\System.Web.WebPages.Razor.dll
+E:\finalproject\EmployeePartV2\bin\WebGrease.dll
+E:\finalproject\EmployeePartV2\bin\EntityFramework.xml
+E:\finalproject\EmployeePartV2\bin\EntityFramework.SqlServer.xml
+E:\finalproject\EmployeePartV2\bin\PagedList.xml
+E:\finalproject\EmployeePartV2\bin\PagedList.Mvc.xml
+E:\finalproject\EmployeePartV2\bin\System.Web.Helpers.xml
+E:\finalproject\EmployeePartV2\bin\System.Web.Mvc.xml
+E:\finalproject\EmployeePartV2\bin\System.Web.Optimization.xml
+E:\finalproject\EmployeePartV2\bin\System.Web.Razor.xml
+E:\finalproject\EmployeePartV2\bin\System.Web.WebPages.xml
+E:\finalproject\EmployeePartV2\bin\System.Web.WebPages.Deployment.xml
+E:\finalproject\EmployeePartV2\bin\System.Web.WebPages.Razor.xml
+E:\finalproject\EmployeePartV2\bin\Newtonsoft.Json.xml
+E:\finalproject\EmployeePartV2\bin\Antlr3.Runtime.pdb
+E:\finalproject\EmployeePartV2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\finalproject\EmployeePartV2\obj\Debug\EmployeePartV2.csproj.AssemblyReference.cache
+E:\finalproject\EmployeePartV2\obj\Debug\EmployeePartV2.csproj.CoreCompileInputs.cache
+E:\finalproject\EmployeePartV2\obj\Debug\EmployeePartV2.csproj.CopyComplete
+E:\finalproject\EmployeePartV2\obj\Debug\EmployeePartV2.dll
+E:\finalproject\EmployeePartV2\obj\Debug\EmployeePartV2.pdb

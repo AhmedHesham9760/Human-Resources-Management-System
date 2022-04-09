@@ -1,0 +1,181 @@
+﻿@*@{
+        ViewBag.Title = "edit";
+        Layout = "~/Views/Shared/_Layout2.cshtml";
+    }
+
+    <h2>edit</h2>*@
+@using EmployeePartV2.Models
+@model Attendance
+
+@{
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+    ViewBag.Title = "Edit";
+}
+
+
+            <section id="configuration">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="card-title-wrap bar-success">
+                                    <h4 class="card-title">Edit employee attendance record:</h4>
+                                </div>
+                            </div>
+
+                            <div class="card-body">
+                                <div class="px-3">
+                                    <form method="post" class="form form-horizontal">
+                                        <div class="form-body">
+                                            <div>
+
+
+
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-md-3 label-control" for="projectinput7">@Html.LabelFor(n => n.Employee.Name):</label>
+                                                <div class="col-md-9">
+                                                    @*<select id="projectinput7" name="budget" class="form-control">
+                                                            <option value="0" selected="" disabled="">Tasneem Saleh</option>
+                                                            <option value="leman">Eman Ahmed</option>
+                                                            <option value="amany">Amany Gamal</option>
+
+                                                        </select>*@
+                                                    @Html.TextBoxFor(n => n.Employee.Name, new { @class = "form-control", id = "employeeName" })
+                                                </div>
+                                            </div>
+
+
+
+
+                                            <div class="form-group row">
+                                                <label class="col-md-3 label-control" for="projectinput9">@Html.LabelFor(n => n.AttendanceDate): </label>
+                                                <div class="col-md-9">
+                                                    <div class="position-relative has-icon-left">
+
+                                                        @Html.TextBox($"{Model.AttendanceDate}", $"{Model.AttendanceDate.Year}-{Model.AttendanceDate.Month}-{Model.AttendanceDate.Day}", new { @class = "form-control", id = "registerAttendanceDate" });
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class=" row">
+                                            <div class="col-md-12">
+                                                <div class=" row form-group">
+                                                    <label class="col-md-3 label-control">@Html.LabelFor(n => n.StartTime): </label>
+                                                    <div class="position-relative has-icon-left col-lg-9">
+                                                        @Html.TextBoxFor(n => n.StartTime, new { @type = "time", @class = "form-control" })
+
+                                                        @*<span class="danger">@ViewBag.startTimeRequiredWarningMessage</span>*@
+
+                                                        <div class="form-control-position">
+                                                            <i class="ft-clock"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class=" row form-group">
+                                                    <label class="col-md-3 label-control">@Html.LabelFor(n => n.EndTime): </label>
+                                                    <div class="position-relative has-icon-left col-lg-9">
+                                                        @Html.TextBoxFor(n => n.EndTime, new { @type = "time", @class = "form-control" })
+                                                        <div class="form-control-position">
+                                                            <i class="ft-clock"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="row form-group">
+                                                    @*<div class="danger">@ViewBag.InvalidAttendanceAndLeaveTime</div>*@
+                                                    <div class="danger">@ViewBag.invalidValues</div>
+                                                    <div class="danger">@ViewBag.startTime</div>
+                                                    @*<div class="danger">@ViewBag.startTime</div>*@
+                                                    <div class="danger">@ViewBag.empty</div>
+                                                    <div class="danger">@ViewBag.equal</div>
+                                                </div>
+                                            </div>
+                                            @*<input type="button" class="btn btn-danger mr-1" value="Cancel" />*@
+                                            @Html.ActionLink("Cancel", "index", "Attendance", new { @class = "btn btn-danger mr-1" })
+                                            <input type="submit" id="save" class="btn btn-success" value="Save" />
+                                            @Html.HiddenFor(n => n.AttendanceID)
+                                            @Html.HiddenFor(n => n.AttendanceDate)
+                                            @Html.HiddenFor(n => n.Employee.Name)
+
+                                        </div>
+
+                                    </form>
+                                </div>
+                            </div>
+
+
+
+                            <div class="form-actions">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+     
+@section Scripts{
+    <script type="text/javascript">
+        document.getElementById("employeeName").disabled = true;
+        document.getElementById("registerAttendanceDate").disabled = true;
+                    //function n(n) {
+                    //    return n > 9 ? "" + n : "0" + n;
+                    //}
+                    //function getAttendanceAjaxCall() {
+                    //    let empName = $("#projectinput7").val();
+                    //    let date = $("#registerAttendanceDate").val();
+                    //    $.ajax({
+                    //        type: "POST",
+                    //        url: "/Attendance/registeredAttendanceData",
+                    //        data: { empName: empName, date: date },
+                    //        dataType: 'json',
+                    //        success: function (data) {
+                    //            getAttendanceData(data);
+                    //        },
+                    //        error: function (req, status, error) {
+                    //            console.log(`status:${status}`);
+                    //        }
+                    //    });
+                    //}
+                    //function getAttendanceData(data) {
+                    //    if (data.StartTime != null) {
+                    //        var startTime = `${n(data.StartTime.Hours)}:${n(data.StartTime.Minutes)}:${n(data.StartTime.Seconds)}`;
+                    //        document.getElementById("StartTime").value = startTime;
+                    //        document.getElementById("StartTime").disabled = true;
+                    //        console.log(startTime);
+                    //    } else {
+                    //        document.getElementById("StartTime").value = null;
+                    //        document.getElementById("StartTime").disabled = false;
+                    //    }
+                    //    if (data.EndTime != null) {
+                    //        var endTime = `${n(data.EndTime.Hours)}:${n(data.EndTime.Minutes)}:${n(data.EndTime.Seconds)}`;
+                    //        document.getElementById("EndTime").value = endTime;
+                    //        document.getElementById("EndTime").disabled = true;
+                    //        console.log(endTime);
+                    //    } else {
+                    //        document.getElementById("EndTime").value = null;
+                    //        document.getElementById("EndTime").disabled = false;
+                    //    }
+                    //}
+
+                    //$("#registerAttendanceDate").on("input", function () {
+                    //    getAttendanceAjaxCall();
+                    //})
+                    //$("#projectinput7").on("input", function () {
+                    //    if ($("#registerAttendanceDate").val() != "") {
+                    //        getAttendanceAjaxCall();
+                    //    }
+
+                    //})
+
+    </script>
+
+}
+
+

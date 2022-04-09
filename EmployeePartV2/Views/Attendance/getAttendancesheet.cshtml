@@ -1,0 +1,31 @@
+﻿@using EmployeePartV2.Models
+@using PagedList.Mvc
+@model PagedList.PagedList<Attendance>
+
+@foreach (var item in Model)
+{
+    <tr>
+        <td>@item.Employee.Name</td>
+
+
+        <td>@item.AttendanceDate.ToString("dd/MM/yyyy")</td>
+
+        <td>@item.StartTime</td>
+        <th>@item.EndTime</th>
+        <th>
+            <button type="button" class="btn btn-danger mr-1" id="Delete">
+                <i class="icon-trash"></i>@Html.ActionLink("Delete", "delete", "Attendance", new { id = item.AttendanceID }, new { onclick = "return confirm('Are you Sure you want to delete this item')" });
+
+            </button>
+        </th>
+        <th>
+            <button type="button" class="btn btn-success mr-1">
+                <i class="icon-trash"></i> @Html.ActionLink("Edit", "edit", "Attendance", new { id = item.AttendanceID }, new { onclick = "return confirm('Are you sure you want to edit this item')" });
+            </button>
+        </th>
+
+    </tr>
+
+}
+
+

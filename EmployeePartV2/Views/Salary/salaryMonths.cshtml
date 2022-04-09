@@ -1,0 +1,11 @@
+﻿<div> @ViewBag.monthsError</div>
+<div class="dataTables_length" id="DataTables_Table_0_length">
+    <label>
+        Month
+        @Html.DropDownList("month", (SelectList)ViewBag.months, new { @class = "form-control form-control-sm", id = "months" })
+    </label>
+</div>
+<div>@ViewBag.monthsNote</div>
+
+
+

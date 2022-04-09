@@ -1,0 +1,100 @@
+﻿@using EmployeePartV2.Models
+@using PagedList.Mvc
+@model PagedList.PagedList<Employee>
+@{
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+
+
+<section id="configuration">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-title-wrap bar-success">
+                        <h4 class="card-title">Employees Information</h4>
+                    </div>
+                </div>
+                <div class="card-body collapse show">
+                    <div class="card-block card-dashboard">
+
+                        <div class="row">
+                            @*<div class="col-sm-12 col-md-3">
+            <div class="dataTables_length" id="DataTables_Table_0_length">
+                <label>
+                    Show
+                    <select name="DataTables_Table_0_length" aria-controls="DataTables_Table_0" class="form-control form-control-sm">
+                        <option value="10">10</option>
+                        <option value="25">25</option>
+                        <option value="50">50</option>
+                        <option value="100">
+                            100
+                        </option>
+                    </select>
+                </label>
+            </div>
+        </div>*@
+                            @*<div class="col-lg-1"></div>*@
+                            <div class="col-sm-12 col-md-3">
+                                <div id="DataTables_Table_0_filter"
+                                     class="dataTables_filter">
+                                    @*<label>
+                    Search <input type="search"
+                                  class="form-control form-control-sm" placeholder="" aria-controls="DataTables_Table_0">
+                </label>*@
+                                    <label>
+                                        Search @Html.TextBox("Search", null, new { @class = "form-control form-control-sm" })
+                                    </label>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-5"></div>
+                            @if ((List<ModulePermission>)Session["ScreenPermission"] != null)
+                            {
+                                List<ModulePermission> perms = (List<ModulePermission>)Session["ScreenPermission"];
+
+                                foreach (var item in perms)
+                                {
+
+                                    if (item.ModuleID == 1 && item.PermissionID == 2)
+                                    {
+                                        <div class="col-lg-3">
+                                            <button id="addRow" class="btn btn-primary mb-2">
+                                                <i class="ft-plus"></i>&nbsp;
+                                                <a href="/Employee/Create">  Add new Employee</a>
+                                            </button>
+                                        </div>
+
+                                    }
+                                }
+                            }
+                        </div>
+                        @*here*@
+                        <div id="dd">
+
+                        </div>
+                        @Html.PagedListPager(Model, n => Url.Action("Index", new { pageno = n }))
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section scripts{
+
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+    <script>
+
+
+        $("#Search").on("keyup", function () {
+            let txt = $("#Search").val();
+            $("#dd").load("/Employee/Search?search=" + txt)
+        })
+        $(function () {
+            $("#dd").load("/Employee/search?pageno=" + @ViewBag.PageNo)
+        })
+    </script>
+}

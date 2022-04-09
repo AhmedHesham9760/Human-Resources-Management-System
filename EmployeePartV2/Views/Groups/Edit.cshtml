@@ -1,0 +1,110 @@
+﻿@*@{
+        ViewBag.Title = "Edit";
+        Layout = "~/Views/Shared/_Layout2.cshtml";
+    }
+
+    <h2>Edit</h2>*@
+
+@using EmployeePartV2.Models;
+@model EmployeePartV2.Models.Group
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+
+                <form method="post">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    <div class="card-title-wrap bar-success">
+                                        <h4 class="card-title">Add New Group </h4>
+                                    </div>
+                                </div>
+                                <div class="card-body collapse show">
+                                    <div class="row">
+                                        <div class="col-lg-2"></div>
+                                        <div class="col-sm-12 col-md-9">
+                                            <div id="DataTables_Table_0_filter"
+                                                 class="dataTables_filter">
+                                                <label>
+                                                    Group Name :
+                                                    @Html.TextBoxFor(n => n.Name, new { @class = "form-control form-control-sm", type = "search", style = "height: 58px;", required = "" })
+                                                </label>
+                                                @Html.HiddenFor(n => n.GroupID)
+                                            </div>
+                                            <div>@Html.ValidationMessageFor(n => n.Name, null, new { @class = "text-danger" })</div>
+                                        </div>
+                                    </div>
+                                    <table class="table table-striped table-bordered zero-configuration mt-40 table-group">
+                                        <thead>
+                                            <tr>
+                                                <th>Module Name</th>
+                                                @foreach (var item in ViewBag.permissions)
+                                                {
+                                                    <th>@item.Name </th>
+                                                }
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @{ for (int j = 0; j < ViewBag.modules.Count; j++)
+                                                {
+                                                    <tr>
+                                                        <td>@ViewBag.modules[j].Name</td>
+                                                        @{ for (int i = 0; i < ViewBag.permissions.Count; i++)
+                                                            {
+                                                                <td>
+                                                                    @Html.CheckBoxFor(n => n.ModulePermissions.Where(p => p.ModuleID == j + 1 && p.PermissionID == i + 1).FirstOrDefault().isChecked, new { value = $"{ViewBag.permissions[i].PermissionID} , {ViewBag.modules[j].ModuleID} ", @class = "chckbox-group" })
+                                                                </td>
+
+                                                            }
+                                                        }
+                                                    </tr>
+                                                }
+                                            }
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="alert alert-danger has-error" id="error" role="alert"><span>Please,choose permissons before saving...</span></div>
+                    <input type="submit" id="btnSubmit" class="btn btn-danger" style="float:right" value="Save group" />
+
+                </form>
+                <div>
+                    @Html.ActionLink("Back to List", "Index")
+                </div>
+
+@section Scripts{
+
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            if ($(".chckbox-group:checked").length > 0)
+                    $("#error").hide();
+        })
+
+        $(function () {
+
+            $(".chckbox-group").click(function () {
+                if ($(".chckbox-group:checked").length == 0) {
+                    $("#error").show();
+                    $("#btnSubmit").attr("disabled", "disabled");
+                }
+                else {
+                    $("#error").hide();
+                    $("#btnSubmit").attr("disabled", false);
+                    return true;
+                }
+            });
+        });;
+    </script>
+}
+
+
+
+

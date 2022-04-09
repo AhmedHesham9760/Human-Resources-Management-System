@@ -1,0 +1,135 @@
+﻿@*@{
+        ViewBag.Title = "Create";
+        Layout = "~/Views/Shared/_Layout2.cshtml";
+    }
+
+    <h2>Create</h2>*@
+
+
+@using EmployeePartV2.Models;
+@model EmployeePartV2.Models.viewmodel
+
+@{
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+    ViewBag.Title = "Create";
+}
+
+
+
+
+
+<form method="post">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-title-wrap bar-success">
+                        <h4 class="card-title">Add New Group </h4>
+                    </div>
+                </div>
+                <div class="card-body collapse show">
+                    <div class="row">
+                        <div class="col-lg-2"></div>
+                        <div class="col-sm-12 col-md-9">
+                            <div id="DataTables_Table_0_filter"
+                                 class="dataTables_filter">
+                                <label>
+                                    Group Name :
+                                    @Html.TextBoxFor(n => n.group.Name, new { @class = "form-control form-control-sm", id = "group-name", type = "search", style = "height: 58px;" })
+                                </label>
+                            </div>
+                            <div>@Html.ValidationMessageFor(n => n.group.Name, null, new { @class = "text-danger" })</div>
+                        </div>
+                    </div>
+                    <table class="table table-striped table-bordered zero-configuration mt-40 table-group" id="perms-table">
+                        <thead>
+                            <tr>
+                                <th>Module Name</th>
+                                @foreach (var item in ViewBag.permissions)
+                                {
+                                    <th>@item.Name </th>
+                                }
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{ for (int j = 0; j < ViewBag.modules.Count; j++)
+                                {
+                                    <tr>
+                                        <td>@ViewBag.modules[j].Name</td>
+                                        @{ for (int i = 0; i < ViewBag.permissions.Count; i++)
+                                            {
+                                                <td>
+                                                    <input type="checkbox" class="chckbox-group" name="perms" value="@ViewBag.permissions[i].PermissionID , @ViewBag.modules[j].ModuleID " />
+                                                </td>
+                                                @Html.HiddenFor(m => Model.Permissions[i].Name)
+                                                @Html.HiddenFor(m => Model.Permissions[i].PermissionID)
+                                            }
+                                        }
+                                        @Html.HiddenFor(m => Model.modules[j].Name)
+                                        @Html.HiddenFor(m => Model.modules[j].ModuleID)
+                                    </tr>
+                                }
+                            }
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="alert alert-danger has-error" id="error" role="alert"><span>Please,choose permissons before saving...</span></div>
+
+    <input type="submit" disabled="disabled" class="btn btn-success" id="btnSubmit" style="float:right" value="Save group" />
+    @*<script type="text/javascript">
+            $(function () {
+                $(".chckbox-group").click(function () {
+                    if ($(".chckbox-group:checked").length == 0) {
+                        $("#error").show();
+                        $("#btnSubmit").attr("disabled", "disabled");
+                    }
+                    else {
+                        $("#error").hide();
+                        $("#btnSubmit").attr("disabled", false);
+                        return true;
+                    }
+                });
+            });
+        </script>*@
+</form>
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts{
+
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $(".chckbox-group").click(function () {
+                if ($(".chckbox-group:checked").length == 0) {
+                    $("#error").show();
+                    $("#btnSubmit").attr("disabled", "disabled");
+                }
+                else {
+                    $("#error").hide();
+                    $("#btnSubmit").attr("disabled", false);
+                    return true;
+                }
+            });
+        });
+    </script>
+
+}
+
+
+
+
+
+
+
+
+
+
